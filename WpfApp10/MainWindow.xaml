@@ -1,0 +1,28 @@
+﻿<Window x:Class="WpfApp10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+        xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        ui:WindowHelper.SystemBackdropType="Acrylic11"
+        mc:Ignorable="d"
+        Title="Shadow Minecraft Launcher" Height="450" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="启动">
+                <ui:Frame NavigationUIVisibility="Hidden" Source="APPPage/Homepage.xaml"/>
+            </TabItem>
+            <TabItem Header="下载">
+                <ui:Frame NavigationUIVisibility="Hidden" Source="APPPage/Page1.xaml"/>
+            </TabItem>
+            <TabItem Header="设置">
+                <ui:Frame NavigationUIVisibility="Hidden" Source="APPPage/SettingsPage.xaml"/>
+            </TabItem>
+            <TabItem Header="帮助">
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

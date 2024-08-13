@@ -1,0 +1,142 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "WpfApp10/1.0.0": {
+        "dependencies": {
+          "StarLight_Core": "1.3.7-Perview7",
+          "iNKORE.UI.WPF": "1.2.7.1",
+          "iNKORE.UI.WPF.Modern": "0.9.30",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.18362.31"
+        },
+        "runtime": {
+          "WpfApp10.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.31": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.18362.24",
+            "fileVersion": "10.0.18362.31"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.44211"
+          }
+        }
+      },
+      "iNKORE.UI.WPF/1.2.7.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "assemblyVersion": "1.2.8.0",
+            "fileVersion": "1.2.8.0"
+          }
+        }
+      },
+      "iNKORE.UI.WPF.Modern/0.9.30": {
+        "dependencies": {
+          "iNKORE.UI.WPF": "1.2.7.1"
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "assemblyVersion": "0.9.30.0",
+            "fileVersion": "0.9.30.0"
+          },
+          "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll": {
+            "assemblyVersion": "0.9.30.0",
+            "fileVersion": "0.9.30.0"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "StarLight_Core/1.3.7-Perview7": {
+        "dependencies": {
+          "System.Drawing.Common": "8.0.7"
+        },
+        "runtime": {
+          "lib/net6.0/StarLight_Core.dll": {
+            "assemblyVersion": "1.3.7.7",
+            "fileVersion": "1.3.7.7"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.7": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.724.31308"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WpfApp10/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.18362.31": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "iNKORE.UI.WPF/1.2.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jxWb7nbKbmuC2RmAWeM2f9qmLD2/0TnYWonsLsOGcv8nVsqR1vVgH1DKXdDrt4a8i/d+H+brEFLcwdzLaRvnnQ==",
+      "path": "inkore.ui.wpf/1.2.7.1",
+      "hashPath": "inkore.ui.wpf.1.2.7.1.nupkg.sha512"
+    },
+    "iNKORE.UI.WPF.Modern/0.9.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7QdYE9Xioy6CBz4TWCx1Ai6JnUXn2iL3NjbcEvXDQWxMbdIT3YkXmyFh9r0pqG8/kLUE6Em1UaSRcWb44vYuKQ==",
+      "path": "inkore.ui.wpf.modern/0.9.30",
+      "hashPath": "inkore.ui.wpf.modern.0.9.30.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "hashPath": "microsoft.win32.systemevents.8.0.0.nupkg.sha512"
+    },
+    "StarLight_Core/1.3.7-Perview7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VZj5M67C4529ZoWMK6uJgFect/3Xa4C1gpARS0gtyOtJ+jK5/fTwg8B4ogKBVSVwPL7+hyC0ADQDkviLANcTXw==",
+      "path": "starlight_core/1.3.7-perview7",
+      "hashPath": "starlight_core.1.3.7-perview7.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DoeBae0gZvxs3mtfoub6F1k28fSkFPzmhFuvblplKMnLYKmTMVy0j4Yxahh96KM532JzHGDxhJn1VpMKSB1pyg==",
+      "path": "system.drawing.common/8.0.7",
+      "hashPath": "system.drawing.common.8.0.7.nupkg.sha512"
+    }
+  }
+}
